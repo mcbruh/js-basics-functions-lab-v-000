@@ -6,6 +6,6 @@ function distanceFromHqInBlocks(street) {
   return Math.ceil(blocks);
 };
 
-function distanceFromHqInFeet() {
-
+function distanceFromHqInFeet(street) {
+  return distanceFromHqInBlocks(street) * 264
 }

@@ -2,5 +2,5 @@
 function distanceFromHqInBlocks(distance) {
   const block = 264
   let blocks = distance / block
-  Math.round(blocks)
+  return Math.round(blocks)
 };

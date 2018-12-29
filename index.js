@@ -12,3 +12,15 @@ function distanceTravelledInFeet(start, finish) {
   let blocks = Math.abs(start - finish);
   return blocks * 264;
 };
+
+function calculatesFarePrice(start, finish) {
+  if distanceTravelledInFeet(start, finish) < 400 {
+    0
+  }
+  else if distanceTravelledInFeet(start, finish) > 400 && <200 {
+    25
+  }
+  else if distanceTravelledInFeet(start, finish) > 2500 {
+    no
+  }
+}

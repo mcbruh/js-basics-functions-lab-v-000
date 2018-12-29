@@ -4,3 +4,7 @@ function distanceFromHqInBlocks(distance) {
   let blocks = distance / block
   return Math.ceil(blocks);
 };
+
+function distanceFromHqInFeet(blocks) {
+    return blocks * 264;
+}

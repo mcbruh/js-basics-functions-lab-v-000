@@ -1,9 +1,7 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(street) {
-  const block = 264
-  let distance = street - 42
-  let blocks = distance / block
-  return Math.ceil(blocks);
+  let blocks = street - 42
+  return blocks;
 };
 
 function distanceFromHqInFeet(street) {
@@ -11,5 +9,5 @@ function distanceFromHqInFeet(street) {
 };
 
 function distanceTravelledInFeet(street) {
-  
+
 }

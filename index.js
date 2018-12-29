@@ -11,4 +11,4 @@ function distanceFromHqInFeet(street) {
 function distanceTravelledInFeet(start, finish) {
   let blocks = Math.abs(start - finish);
   return blocks * 264;
-}
+};
